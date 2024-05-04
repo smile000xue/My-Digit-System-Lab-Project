@@ -1,0 +1,12 @@
+git init创建一个新的本地仓库
+git remote add origin http://......添加你的远程仓库地址
+git add .
+git add 文件名 把你的代码放入暂存区
+git commit -m "备注" 提交到head
+git checkout -b 分支名 checkout切换分支
+git pull origin 分支名 拉取代码
+git push origin 分支名 -f 推送代码
+git branch -a 查看分支
+git log 查看记录
+git merge 合并分支
+git status 查看状态
